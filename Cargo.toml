@@ -1,0 +1,8 @@
+[package]
+name = "my_os"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bootloader = { version = "0.9.35", features = ["vga_320x200"] }
+font8x8 = { version = "0.3.1", default-features = false, features = ["unicode"] }
